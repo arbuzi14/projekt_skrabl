@@ -48,8 +48,8 @@ def main():
     print("Игрок 2")
     word_p2 = get_word_with_letter(random_letter)
     score_p2 = calculate_score(word_p2)
-    print(f"Игрок 1 ввел слово '{word_p1}' инабрал {score_p1} очков.")
-    print(f"Игрок 2 ввел слово '{word_p2}' инабрал {score_p2} очков.")
+    print(f"Игрок 1 ввел слово '{word_p1}' и набрал {score_p1} очков.")
+    print(f"Игрок 2 ввел слово '{word_p2}' и набрал {score_p2} очков.")
     if score_p1 > score_p2:
         print("игрок 1 победил!!!")
     elif score_p2 > score_p1:
